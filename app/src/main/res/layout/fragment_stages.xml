@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:paddingTop="60dp" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:text="Pressure sores categorized as deep tissue injury may be purple or maroon. This may be an area of skin or blood-filled blister due to damage of soft tissue from pressure. The area around may be sore, firm, mushy, boggy, warmer, or cooler compared with tissue nearby" android:textSize="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Pressure sores are grouped by their severity. Stage I is the earliest stage. Stage IV is the worst." android:textSize="15dp" android:layout_marginTop="10dp" android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Stage I: A reddened area on the skin that, when pressed, does not turn white. This is a sign that a pressure ulcer is starting to develop." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Stage II: The skin blisters or forms an open sore. The area around the sore may be red and irritated" android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Stage III: The skin now develops an open, sunken hole called a crater. There is damage to the tissue below the skin" android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Stage IV: The pressure ulcer has become so deep that there is damage to the muscle and bone, and sometimes to tendons and joints." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Pressure sores are unstageable when the tissue at the base of the ulcer is covered by dead skin that is yellow, tan, green, or brown." android:textSize="15dp" android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="DO NOT" android:textSize="15dp" android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Do not massage the skin near or on the ulcer. It can cause more skin damageT" android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Do not use a donut-shaped or ring-shaped cushions. They interfere with blood flow to that area and cause complications." android:textSize="15dp"/>
+
+
+</LinearLayout>
+    </ScrollView>

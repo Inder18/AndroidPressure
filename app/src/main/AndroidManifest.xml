@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inderpreet.zeropressure">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+    android:icon="@drawable/logo"
+        android:theme="@style/AppTheme">
+
+        <service android:name=".TimeService"/>
+        <activity android:name=".SplashScreen" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:label="ABOUT US"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReachUs"
+            android:label="REACH US"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoggedActivity"
+            android:label="LEARN MORE"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:paddingTop="60dp" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/pressure_ulcers_also_known_as_pressure_sores_bedsores_and_decubitus_ulcers_are_localized_injuries_to_the_skin_and_or_underlying_tissue_that_usually_occur_over_a_bony_prominence_as_a_result_of_pressure_caused_by_lying_in_same_position_for_the_longer_time"
+        android:id="@+id/textView5"
+
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/fact" />
+</RelativeLayout>
+</ScrollView>

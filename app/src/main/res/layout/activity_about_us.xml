@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:context="com.example.inderpreet.zeropressure.AboutUs">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Zero Pressure"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="We are a team of few but we are crazy about technology and about changing the lives of people using technology. So Zero Pressure is just our way of doing the same.We hope that our dream of improving and making people&apos;s lives much better and easier will soon be true.We have seen our family members suffering from the disease and struggling everyday which make them hopeless so we need to help others to make their life easier"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#000000"
+        android:textStyle="bold" />
+</RelativeLayout>

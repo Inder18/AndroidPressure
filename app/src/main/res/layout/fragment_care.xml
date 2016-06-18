@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:paddingTop="60dp" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:text="Stage I or II sores will heal if cared for carefully. Stage III and IV sores are harder to treat and may take a long time to heal. Here's how to care for a pressure sore at home." android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Relieve the pressure on the area." android:textSize="15dp" android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Use special pillows, foam cushions, booties, or mattress pads to reduce the pressure. Some pads are water- or air-filled to help support and cushion the area. What type of cushion you use depends on your wound and whether you are in bed or in a wheelchair. Talk with your doctor about what choices would be best for you, including what shapes and types of material." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Change positions often. If you are in a wheelchair, try to change your position every 15 minutes. If you are in bed, you should be moved about every 2 hours." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Avoid further injury or friction." android:textSize="15dp" android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Powder your sheets lightly so your skin doesn't rub on them in bed." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Avoid slipping or sliding as you move positions. Try to avoid positions that put pressure on your sore." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="• Care for healthy skin by keeping it clean and moisturized." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	If the pressure sore changes or a new one forms, tell your doctor" android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Take care of your health." android:textSize="15dp" android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="• Eat a healthy, balanced diet. Getting the right nutrition will help you heal." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Lose excess weight." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Get plenty of sleep." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Ask your doctor if it's OK to do gentle stretches or light exercises. This can help improve circulation." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="When to call the doctor." android:textSize="15dp" android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Call your doctor if you develop blisters or an open sore." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Call immediately if there are signs of infection, such as:" android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="• A foul odor from the sore." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Pus coming out of the sore." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Redness and tenderness around the sore." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Skin close to the sore is warm and/or swollen." android:textSize="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="•	Fever" android:textSize="13dp"/>
+
+</LinearLayout>
+</ScrollView>

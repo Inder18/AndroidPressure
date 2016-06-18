@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Zero Pressure</string>
+    <string name="login_label">LOGIN</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="txt_or">or</string>
+    <string name="reg_btn">REGISTER</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="edt_email">Email</string>
+    <string name="edt_pswd">Password</string>
+    <string name="edt_reg_pswd">Password</string>
+    <string name="register_label">REGISTER</string>
+    <string name="edt_name">Full Name</string>
+    <string name="edt_emailreg">Email</string>
+    <string name="edt_mobile">Mobile</string>
+    <string name="reg_btn_register">REGISTER</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="logo">Logo</string>
+    <string name="position">Position</string>
+    <string name="title_activity_learn_more">LEARN MORE</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_logged">LoggedActivity</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="pressure_ulcers_also_known_as_pressure_sores_bedsores_and_decubitus_ulcers_are_localized_injuries_to_the_skin_and_or_underlying_tissue_that_usually_occur_over_a_bony_prominence_as_a_result_of_pressure_caused_by_lying_in_same_position_for_the_longer_time">Pressure ulcers, also known as pressure sores, bedsores and decubitus ulcers, are localized injuries to the skin and/or underlying tissue that usually occur over a bony prominence as a result of pressure caused by lying in same position for the longer time.</string>
+</resources>

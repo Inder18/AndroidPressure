@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:paddingTop="60dp" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Depending on the stage, you may have any of the following:" android:textSize="15dp" android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Skin Discoloration." android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Pain in the Affected Area." android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Infection." android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Open Skin." android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Skin that doesn't lighten to the touch." android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Skin that is softer or firmer than the surrounding skin." android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Pressure Ulcers occur most commonly on the -" android:textSize="15dp" android:layout_marginTop="20dp" android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Buttocks" android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Elbow" android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Hips" android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Heels" android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Ankles" android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Shoulders" android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Back" android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  android:text="•	Back of head" android:textSize="13dp"/>
+    </LinearLayout>
+</ScrollView>
